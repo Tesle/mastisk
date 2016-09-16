@@ -1,0 +1,16 @@
+{
+  "name": "booking-dojo",
+  "description": "Booking dojo app",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "lodash": "4.15.0",
+    "babel-cli": "6.14.0",
+    "babel-preset-es2015": "6.14.0",
+    "babel-preset-stage-3": "6.11.0"
+  },
+  "scripts": {
+    "build": "babel src/ -d build -s",
+    "exe": "node build/app.js"
+  }
+}
